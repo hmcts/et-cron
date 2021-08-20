@@ -1,7 +1,6 @@
 job:
   image: hmctspublic.azurecr.io/nfdiv/case-api:latest
   aadIdentityName: nfdiv
-  ingressHost: sscs-case-loader-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
   keyVaults:
     nfdiv:
       secrets:
