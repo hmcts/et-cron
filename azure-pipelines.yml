@@ -21,7 +21,7 @@ jobs:
     steps:
       - template: steps/charts/validate.yaml@cnp-library
         parameters:
-          chartName: job
+          chartName: nfdiv-cron
           chartReleaseName: nfdiv-cron-ci-test
           chartNamespace: chart-tests
 
