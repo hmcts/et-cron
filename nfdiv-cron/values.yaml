@@ -37,3 +37,4 @@ job:
   concurrencyPolicy: Forbid
 global:
   jobKind: CronJob
+  enableKeyVaults: true
