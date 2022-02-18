@@ -30,6 +30,8 @@ job:
     DOCUMENT_MANAGEMENT_URL: http://dm-store-aat.service.core-compute-aat.internal
     PRD_API_BASEURL : "http://rd-professional-api-aat.service.core-compute-aat.internal"
     SEND_LETTER_SERVICE_BASEURL: "http://rpe-send-letter-service-aat.service.core-compute-aat.internal"
+    SERVICE_AUTH_PROVIDER_URL: http://rpe-service-auth-provider-aat.service.core-compute-aat.internal
+    SERVICE_AUTH_MICROSERVICE: nfdiv_case_api
   args:
     - run
     - SystemRemindApplicant2Task
