@@ -1,0 +1,12 @@
+#!groovy
+
+@Library("Infrastructure")
+
+def type = "java"
+def product = "nfdiv"
+def component = "cron"
+
+withPipeline(type, product, component) {
+  disableLegacyDeployment()
+  nonServiceApp() 
+}
