@@ -3,7 +3,7 @@ description: NFDIV cron jobs
 home: https://github.com/hmcts/nfdiv-cron
 apiVersion: v2
 appVersion: "1.0"
-version: 0.0.11
+version: 0.0.12
 maintainers:
   - name: HMCTS NFDIV Team
 dependencies:
