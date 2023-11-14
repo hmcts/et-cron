@@ -20,7 +20,7 @@ jobs:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-      - template: steps/charts/validate.yaml@cnp-azuredevops-libraries
+      - template: steps/charts/validate.yaml@ccnp-azuredevops-libraries
         parameters:
           chartName: nfdiv-cron
           chartReleaseName: nfdiv-cron-ci-test
