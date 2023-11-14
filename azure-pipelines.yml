@@ -13,6 +13,7 @@ resources:
       type: github
       name: hmcts/cnp-azuredevops-libraries
       endpoint: 'hmcts'
+      ref: marty/convert-activecluster-script
 
 jobs:
   - job: Validate
