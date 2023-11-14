@@ -9,7 +9,7 @@ pr:
       - master
 resources:
   repositories:
-    - repository: cnp-library
+    - repository: cnp-azuredevops-libraries
       type: github
       name: hmcts/cnp-azuredevops-libraries
       endpoint: 'hmcts'
