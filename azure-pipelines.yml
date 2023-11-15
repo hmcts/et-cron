@@ -9,18 +9,17 @@ pr:
       - master
 resources:
   repositories:
-    - repository: cnp-azuredevops-libraries
+    - repository: cnp-library
       type: github
       name: hmcts/cnp-azuredevops-libraries
       endpoint: 'hmcts'
-      ref: marty/convert-activecluster-script
 
 jobs:
   - job: Validate
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-      - template: steps/charts/validate.yaml@cnp-azuredevops-libraries
+      - template: steps/charts/validate.yaml@cnp-library
         parameters:
           chartName: nfdiv-cron
           chartReleaseName: nfdiv-cron-ci-test
@@ -37,7 +36,7 @@ jobs:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-      - template: steps/charts/release.yaml@cnp-azuredevops-libraries
+      - template: steps/charts/release.yaml@cnp-library
         parameters:
           chartName: nfdiv-cron
           chartReleaseName: nfdiv-cron
