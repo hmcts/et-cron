@@ -1,4 +1,5 @@
 job:
+  disableActiveClusterCheck: true
   image: hmctspublic.azurecr.io/nfdiv/case-api:latest
   aadIdentityName: nfdiv
   keyVaults:
@@ -37,4 +38,3 @@ global:
   jobKind: CronJob
   enableKeyVaults: true
   tenantId: "531ff96d-0ae9-462a-8d2d-bec7c0b42082"
-  disableActiveClusterCheck: true
