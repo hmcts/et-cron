@@ -1,4 +1,5 @@
 job:
+  disableActiveClusterCheck: true
   image: hmctspublic.azurecr.io/nfdiv/case-api:latest
   aadIdentityName: nfdiv
   keyVaults:
