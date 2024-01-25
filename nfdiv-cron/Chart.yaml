@@ -3,10 +3,10 @@ description: NFDIV cron jobs
 home: https://github.com/hmcts/nfdiv-cron
 apiVersion: v2
 appVersion: "1.0"
-version: 0.0.15
+version: 0.0.16
 maintainers:
   - name: HMCTS NFDIV Team
 dependencies:
   - name: job
-    version: v1.0.0
+    version: v2.0.0
     repository: https://hmctspublic.azurecr.io/helm/v1/repo/
