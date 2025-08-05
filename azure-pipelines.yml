@@ -2,7 +2,7 @@ name: et-cron pipeline
 trigger:
   branches:
     include:
-      - master
+      - refs/tags/*
 pr:
   branches:
     include:
