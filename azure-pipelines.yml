@@ -10,10 +10,12 @@ pr:
       - master
 resources:
   repositories:
-    - repository: cnp-azuredevops-libraries
+    - repository:  cnp-azuredevops-libraries
       type: github
       name: hmcts/cnp-azuredevops-libraries
       endpoint: 'hmcts'
+      ref: f965ee601c541b784809974b35d23bba95643812
+      
 
 jobs:
   - job: Validate
