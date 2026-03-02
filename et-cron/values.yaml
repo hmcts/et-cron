@@ -27,8 +27,6 @@ job:
           alias: CRON_RECONFIGURATION_CASE_IDS
     et:
       secrets:
-        - name: create-updates-queue-send-connection-string
-          alias: CREATE_UPDATES_QUEUE_SEND_CONNECTION_STRING
         - name: app-insights-connection-string
           alias: app-insights-connection-string
         - name: tornado-access-key
