@@ -1,6 +1,6 @@
 job:
   disableActiveClusterCheck: true
-  image: hmctspublic.azurecr.io/et/et-cos:latest
+  image: hmctsprod.azurecr.io/et/et-cos:latest
   aadIdentityName: et
   keyVaults:
     et-cos:

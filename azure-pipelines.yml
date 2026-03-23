@@ -27,6 +27,8 @@ jobs:
           chartName: et-cron
           chartReleaseName: et-cron-ci-test
           chartNamespace: chart-tests
+          aksCluster: cft-preview-00-aks
+          aksResourceGroup: cft-preview-00-rg
 
   - job: Release
     # Make sure we have a tag to run this job
