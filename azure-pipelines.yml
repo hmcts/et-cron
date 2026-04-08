@@ -10,7 +10,7 @@ pr:
       - master
 resources:
   repositories:
-    - repository:  cnp-azuredevops-libraries
+    - repository: cnp-azuredevops-libraries
       type: github
       name: hmcts/cnp-azuredevops-libraries
       endpoint: 'hmcts'
@@ -44,3 +44,5 @@ jobs:
           chartName: et-cron
           chartReleaseName: et-cron
           chartNamespace: chart-tests
+          aksCluster: cft-preview-00-aks
+          aksResourceGroup: cft-preview-00-rg
