@@ -77,6 +77,7 @@ job:
     LAUNCH_DARKLY_ENV: '{{ .Values.global.environment }}'
     CCD_SERVICEBUS_DESTINATION: ccd-case-events-{{ .Values.global.environment }}
     RESPONDENT_PORTAL_LINK: "https://et-syr.{{ .Values.global.environment }}.platform.hmcts.net/"
+    CCD_SDK_DECENTRALISED_ES_INDEXER_ENABLED: false
   schedule: "0 0/10 * * *"
   concurrencyPolicy: Forbid
 global:
